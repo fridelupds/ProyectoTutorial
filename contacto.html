@@ -8,7 +8,7 @@
 </head>
 <body>
    <section>
-    <form action="/my-handling-form-page" method="post">
+    <form action="#" method="post">
         <ul>
             <li>
               <label for="name">Nombre:</label>
@@ -28,8 +28,35 @@
             <li class="button">
                 <button type="submit">Envíe su mensaje</button>
               </li>
+              <input type="search" id="search" name="search" />
+              <input type="tel" id="tel" name="tel" />
+              <input type="url" id="url" name="url" />
+              <input type="number" name="age" id="age" min="1" max="10" step="2" />
+
+              <label for="price">Choose a maximum house price: </label>
+<input
+  type="range"
+  name="price"
+  id="price"
+  min="50000"
+  max="500000"
+  step="100"
+  value="250000" />
+<output class="price-output" for="price"></output>
+<input type="datetime-local" name="datetime" id="datetime" />
+<input type="month" name="month" id="month" />
+<input type="time" name="time" id="time" />
+<input type="week" name="week" id="week" />
+<input type="color" name="color" id="color" />
+
+
+
+
+
           </ul>
+
     </form>
    </section> 
+
 </body>
 </html>
