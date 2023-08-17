@@ -16,15 +16,23 @@ ul{
 #subtitulo{
     color:darkblue;
 }
-
 .card{
     color:aliceblue;
+    list-style: none;
+
+
+
 }
 .card__image{
 
 }
 .card__texto{
-
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
 }
 
 .card{
@@ -71,6 +79,15 @@ background-color: aquamarine;
 }
 .fondo__image{
     background-color: aliceblue; 
+}
+.busqueda{
+
+}
+.busqueda__entrada{
+
+}
+.busqueda__entrada__icon{
+
 }
 
 
