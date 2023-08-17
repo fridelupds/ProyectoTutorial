@@ -16,3 +16,62 @@ ul{
 #subtitulo{
     color:darkblue;
 }
+
+.card{
+    color:aliceblue;
+}
+.card__image{
+
+}
+.card__texto{
+
+}
+
+.card{
+    &__image{
+        color:aliceblue;
+    }
+}
+.faq{
+
+}
+.faq__pregunta{
+
+}
+.faq__respuesta{
+
+}
+.faq{
+
+}
+.faq__pregunta{
+
+}
+
+.menu p #cabecera{
+
+}
+
+.menu{
+
+}
+.image{
+background-color: aliceblue;
+}
+.texto{
+
+}
+
+.menu .image{
+background-color: aquamarine;
+}
+
+.menu__image{
+    background-color: aquamarine; 
+}
+.fondo__image{
+    background-color: aliceblue; 
+}
+
+
+
