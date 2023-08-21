@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
 h2{
    color:aqua; 
 }
@@ -46,6 +52,16 @@ border-radius: 10%;
         color:aliceblue;
     }
 }
+.card{
+    .card__image{
+      
+    }
+    & .card__image{
+
+    }
+}
+
+
 .faq{
 
 }
@@ -125,6 +141,9 @@ background-color: aquamarine;
     font: 900 1.2em sans-serif;
     text-decoration: underline;
   }
+  .card__boton:hover{
+    background-color: aquamarine;
+  }
   
   .border-box {
     background-clip: border-box;
@@ -135,7 +154,12 @@ background-color: aquamarine;
   .content-box {
     background-clip: content-box;
   }
-  
+  .menu__texto:first-child{
+    color:bisque;
+  }
+  .menu__texto:nth-child(2){
+    color:bisque;
+  }
   .text {
     background-clip: text;
     -webkit-background-clip: text;
