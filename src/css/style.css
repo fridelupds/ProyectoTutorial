@@ -11,6 +11,29 @@
     --text-color-parrafo:grey;
     --text-color-parrafo-titulo:red;
 }
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+.header__logo{
+    display:flex;
+    flex-flow:column nowrap;
+    flex-grow: 1;
+
+}
+.header__menu{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 4;
+}
+.header__avatar{
+    display:flex;
+    flex-grow: 1;
+}
 h2{
    color:aqua; 
 }
