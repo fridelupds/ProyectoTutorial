@@ -1,3 +1,14 @@
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 *{
     margin: 0;
     padding: 0;
@@ -105,14 +116,17 @@ border-radius: 10%;
 .faq__pregunta{
 
 }
-.faq__respuesta{
 
+.faq__respuesta{
+    
 }
+
 .faq{
 
 }
 .faq__pregunta{
-
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 
 .menu p #cabecera{
