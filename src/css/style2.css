@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+                  
+    .menu{
+    list-style:none;
+    position:relative;
+    width:120px;
+    }
+                
+    .menu__item{
+    text-decoration:none;
+    display:block;
+   
+    width:120px;
+    height:30px;
+    border:1px solid #000;
+    color:#fff;
+    background-color: black;
+    }
+    .menu__img{
+        width: 20px;
+    }        
+    .menu__item:hover{
+    color:#000;
+    background-color:#fff;
+                
+    }
+    
+    .menu__submenu{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+    }
+            
+   .menu:hover .menu__submenu{display:block;}
